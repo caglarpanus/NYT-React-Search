@@ -1,0 +1,2 @@
+# NYT-React-Search
+A MERN Stack application. This applications is React-based rendition of the New York Times Article Search. Motivation of this application is to create React components, work with helper/util functions, and utilize the React mounting life cycle to query and display articles based on user searches. Also, I used Node, Express and MongoDB so that users can save articles to read later.
