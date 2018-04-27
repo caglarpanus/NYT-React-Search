@@ -5,14 +5,14 @@ import Saved from "./components/Saved";
 import Jumbotron from "./components/Jumbotron";
 
 const App = () =>
-  <Router>
-    <div>
-      <Jumbotron />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/saved" component={Saved} />
-      </Switch>
-    </div>
-  </Router>
+<Router>
+  <div>
+    <Jumbotron />
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/saved" component={Saved} />
+    </Switch>
+  </div>
+</Router>
 
 export default App;

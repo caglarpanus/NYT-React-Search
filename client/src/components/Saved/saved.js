@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import API from "../../utils/API";
-import {Savedcard} from "../Savedcard";
+import {Savedcard} from "../../components/Savedcard";
 
 class Saved extends Component {
 

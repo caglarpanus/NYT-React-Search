@@ -69,7 +69,7 @@ class Home extends Component {
                       label= "Search Topic"
                       id= "searchString"
                       name= "q"
-                      placeholder= "Search News"
+                      placeholder= "Search Topic"
                       >
                     </Input>
                     <Input
@@ -78,7 +78,7 @@ class Home extends Component {
                       label= "Start Year"
                       id= "startYear"
                       name= "startDate"
-                      placeholder= "Year"
+                      placeholder= "YYYY"
                       >
                     </Input>
                     <Input
@@ -87,7 +87,7 @@ class Home extends Component {
                       label= "End Year"
                       id= "endYear"
                       name= "endDate"
-                      placeholder= "Year"
+                      placeholder= "YYYY"
                       >
                     </Input>
                     <FormBtn
