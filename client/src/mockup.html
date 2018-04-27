@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Mockup</title>
+  </head>
+  <body>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">New York Times Search</h1>
+        <p class="lead">search and save your favorite NYT articles!</p>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="row searchWindow">
+        <div class="col-md-12">
+          <div class="card">
+            <h5 class="card-header">Search</h5>
+            <div class="card-body">
+              <form>
+                <div class="form-group">
+                  <label for="searchString">Search Term</label>
+                  <input type="text" class="form-control" id="searchString" aria-describedby="searchTerm" placeholder="Search Topic">
+                  <small id="searchTerm" class="form-text text-muted">Please enter the term/topic you would like to search</small>
+                </div>
+                <div class="form-group">
+                  <label for="startYear">Start Year</label>
+                  <input type="text" class="form-control" id="startYear" placeholder="1900">
+                </div>
+                <div class="form-group">
+                  <label for="endYear">End Year</label>
+                  <input type="text" class="form-control" id="endYear" placeholder="2018">
+                </div>
+                <button type="button" class="btn btn-outline-primary float-right">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row resultsWindow">
+        <div class="col-md-12">
+          <div class="card">
+            <h5 class="card-header">Search Results</h5>
+            <div class="card-body">
+
+              <div class="row searchResult">
+                <div class="col-md-12">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <button type="button" class="btn btn-outline-success float-right">Save</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row searchResult">
+                <div class="col-md-12">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <button type="button" class="btn btn-outline-success float-right">Save</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row savedWindow">
+        <div class="col-md-12">
+          <div class="card">
+            <h5 class="card-header">Saved Articles</h5>
+            <div class="card-body">
+
+              <div class="row savedResult">
+                <div class="col-md-12">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <button type="button" class="btn btn-outline-danger float-right">Delete</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row savedResult">
+                <div class="col-md-12">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <button type="button" class="btn btn-outline-danger float-right">Delete</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import API from "../../utils/API";
-import { Input, FormBtn } from "../Form";
-import {Searchresult} from "../Searchresult";
+import { Input, FormBtn } from "../../components/Form";
+import {Searchresult} from "../../components/Searchresult";
 
 class Home extends Component {
 
@@ -24,7 +24,7 @@ class Home extends Component {
     event.preventDefault();
     if (this.state.q && this.state.startDate && this.state.endDate) {
       API.searchArticles({
-        "api-key": "9d5ff69c3663425e9d88e15ed30c49c6",
+        "api-key": "985ea6ce339c4406a9745e2267215aac",
         q: this.state.q,
         begin_date: this.state.startDate+"0101",
         end_date: this.state.endDate+"1229",

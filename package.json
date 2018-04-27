@@ -1,17 +1,15 @@
 {
-  "name": "nyt-react-search",
+  "name": "nyt-react-app",
   "version": "1.0.0",
-  "description": "A MERN Stack application. This applications is React-based rendition of the New York Times Article Search. Motivation of this application is to create React components, work with helper/util functions, and utilize the React mounting life cycle to query and display articles based on user searches. Also, I used Node, Express and MongoDB so that users can save articles to read later.",
+  "description": "NYT Search",
   "main": "server.js",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.3",
-    "mongoose": "^5.0.16"
-  },
-  "devDependencies": {},
   "scripts": {
+    "server": "node server.js",
+    "client": "node scripts/start-client.js",
+    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "build": "node scripts/build.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "installDeps": "yarn && cd client && yarn"
   },
   "repository": {
     "type": "git",
@@ -20,7 +18,18 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/caglarpanus/NYT-React-Search/issues"
+    "url": "git+https://github.com/caglarpanus/NYT-React-Search.git"
   },
-  "homepage": "https://github.com/caglarpanus/NYT-React-Search#readme"
+  "homepage": "git+https://github.com/caglarpanus/NYT-React-Search.git",
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.16.3",
+    "mongoose": "^4.11.7",
+    "react-router-dom": "^4.1.2"
+  }
 }
